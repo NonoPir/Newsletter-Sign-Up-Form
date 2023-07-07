@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+html,
+body {
+  font-family: "Roboto";
+  background-color: hsl(235, 18%, 26%);
+  height: 99%;
+}
+.main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  justify-content: flex-end;
+  height: 650px;
+  width: 900px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.image {
+  display: flex;
+  align-items: center;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  width: 100%;
+  flex-direction: column;
+}
+.header h1 {
+  margin-right: 100px;
+  font-size: 50px;
+  color: hsl(234, 29%, 20%);
+}
+.para {
+  display: flex;
+  align-items: center;
+  width: 408px;
+  height: 100px;
+}
+.para p {
+  color: hsl(234, 29%, 20%);
+}
+.list-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 408px;
+  height: 110px;
+}
+.seg {
+  display: flex;
+  color: hsl(234, 29%, 20%);
+}
+.list-wrapper p {
+  margin-left: 15px;
+}
+.email {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 360px;
+  height: 60px;
+}
+.orient {
+  font-size: 14px;
+  font-weight: 700;
+  color: hsl(234, 50%, 24%);
+}
+.input {
+  display: flex;
+  align-items: flex-start;
+  width: 408px;
+  height: 85px;
+}
+#email-input {
+  border: solid;
+  border-width: 1px;
+  height: 50px;
+  width: 320px;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+}
+
+.email-input::placeholder {
+  font-size: 15px;
+}
+.button {
+  width: 408px;
+}
+.submit {
+  width: 360px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: hsl(234, 29%, 20%);
+  color: rgb(230, 228, 226);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.submit:hover {
+  background: linear-gradient(to right, hsl(352, 49%, 53%), hsl(17, 74%, 55%));
+}
+.hidden {
+  display: none;
+}
+.wrapper {
+  display: flex;
+  width: 408px;
+}
+.validate {
+  font-size: 14px;
+  font-weight: 700;
+  color: hsl(17, 74%, 55%);
+}
+.warning {
+  border-width: 5px;
+  background-color: hsl(16, 67%, 88%);
+  border-color: hsl(17, 50%, 51%);
+  color: hsl(17, 85%, 47%);
+  outline: none;
+}
+#second-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  border-radius: 30px;
+}
+.second-box-child {
+  width: 350px;
+  height: 350px;
+  background-color: white;
+  padding: 70px;
+  border-radius: 30px;
+}
+.second-box-header {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  justify-content: flex-end;
+  font-size: 25px;
+  color: hsl(234, 29%, 20%);
+}
+.second-box-header p {
+  font-size: 20px;
+}
+.second-box-header h1 {
+  line-height: 48px;
+}
+.second-box-p {
+  display: flex;
+  align-items: flex-end;
+  height: 90px;
+}
+.text-wrapper {
+  width: 400px;
+  height: 300px;
+}
+.button-wrapper {
+  width: 325px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-wrapper button {
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: hsl(234, 29%, 20%);
+  color: rgb(230, 228, 226);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.button-wrapper button:hover {
+  background: linear-gradient(to right, hsl(352, 49%, 53%), hsl(17, 74%, 55%));
+}
+.hover-color {
+  background-color: red;
+}
