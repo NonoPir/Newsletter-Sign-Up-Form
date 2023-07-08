@@ -39,7 +39,9 @@ const validateEmail = () => {
   if (matchEmail) {
     addHiddenClass();
     removeWarningClass();
-    secondBoxPara.innerHTML = secondBoxPara.innerHTML.replace("blank", email);
+    secondBoxPara.innerHTML = `A confirmation email has been sent to
+    <b>${email}</b>. Please open it and click
+    the button inside to confirm your subscription.`;
     removeHiddenClass();
   } else if (email === "") {
     enterMail.classList.remove("hidden");
