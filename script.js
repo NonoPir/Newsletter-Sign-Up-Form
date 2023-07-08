@@ -8,6 +8,7 @@ const secondBox = document.querySelector(".second-box");
 const secondBoxChild = document.querySelector(".second-box-child");
 const secondBoxPara = document.getElementById("second-box-para");
 const button = document.getElementById("dismiss-button");
+const submitButton = document.querySelector(".submit");
 
 const addHiddenClass = () => {
   invalidEmail.classList.add("hidden");
@@ -59,3 +60,12 @@ const dismissMessage = function () {
   box.classList.remove("hidden");
   emailInput.value = "";
 };
+function handleKeyPress(event) {
+  // Check if the pressed key is the Enter key (key code 13)
+  if (event.keyCode === 13) {
+    validateEmail();
+  }
+}
+
+// Bind the key press event to the document
+document.addEventListener("keydown", handleKeyPress);
